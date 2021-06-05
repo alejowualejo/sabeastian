@@ -1,0 +1,89 @@
+:root {
+  --white: #FDFAF7
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-image: url(./background.jpeg);
+    color: white;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.left {
+    display: flex;
+}
+.left ul {
+    display: flex;
+    margin: 0;
+}
+.left ul li {
+    margin: 0 .5rem;
+    list-style: none;
+}
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+.right {
+    display: flex;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.right ul li {
+    margin: 0 .5rem;
+}
+.owner-name {
+    text-align: center;
+}
+h2 {
+    color: grey;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.hero a button {
+    width: 12rem;
+    height: 4rem;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.3rem;
+}
+.hero {
+    margin-left: 2rem;
+}
+.footer {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a {
+    margin: 0 2rem;
+}
+
+#instagram {
+    margin-left: 0;
+}
+button {
+    font-family: 'Comfortaa', cursive;
+}
+a:hover {
+    text-decoration: underline;
+    color: burlywood;
+}
