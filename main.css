@@ -1,10 +1,13 @@
+
 :root {
-  --white: #FFEDF7
+  --white: #EA0080
 }
 
 body {
     font-family: 'Comfortaa', cursive;
-    background-image: url("https://github.com/alejowualejo/sebastian/blob/main/Home.gif");
+    background-image: url("Home.gif");
+    background-repeat: no-repeat;
+    background-position: 50%;
     height: 100vh;
 }
 
@@ -27,7 +30,7 @@ body {
     list-style: none;
 }
 a {
-    color: var(--#FFDEF0);
+    color: var(--#FC1A98);
     text-decoration: none;
 }
 .right {
@@ -55,13 +58,14 @@ h1 {
     font-size: 3rem;
     position: relative;
     margin-bottom: 2rem;
+    color: #EA0080
 }
 .hero a button {
     width: 12rem;
     height: 4rem;
     font-family: 'Sacramento', cursive;
     font-size: 1.3rem;
-    color: var(--#FFEDF7)
+    color: var(--#EA0080)
 }
 .hero {
     margin-left: 2rem;
