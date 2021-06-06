@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Roboto Slab', serif;
-    background-image: url(./background.jpeg);
+    background-color: hsl(360, 100%, 100%);
     color: white;
     height: 100vh;
 }
