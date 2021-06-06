@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Comfortaa', cursive;
     background-color: 220056 ;
     color: white;
     height: 100vh;
@@ -60,7 +60,7 @@ h1 {
 .hero a button {
     width: 12rem;
     height: 4rem;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.3rem;
 }
 .hero {
