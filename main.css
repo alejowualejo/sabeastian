@@ -5,6 +5,8 @@
 body {
     font-family: 'Comfortaa', cursive;
     background-image: url("https://github.com/alejowualejo/sebastian/blob/main/Home.gif");
+    background-repeat: no-repeat;
+    background-size: auto;
     color: #EA0080 ;
     height: 100vh;
 }
