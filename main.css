@@ -54,7 +54,7 @@ h2 {
 }
 h1 {
     font-size: 3rem;
-    margin: 0;
+    position: relative;
     margin-bottom: 2rem;
 }
 .hero a button {
