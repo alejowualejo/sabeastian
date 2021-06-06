@@ -4,11 +4,7 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-  
     background-image: url("https://github.com/alejowualejo/sebastian/blob/main/Home.gif");
-    background-size: 500px 300px
-      
-    color: #EA0080 ;
     height: 100vh;
 }
 
@@ -51,7 +47,7 @@ a {
     text-align: center;
 }
 h2 {
-    color: grey;
+    color: black;
     margin: 0;
     margin-bottom: 2rem;
 }
