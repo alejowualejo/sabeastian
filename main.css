@@ -1,5 +1,5 @@
 :root {
-  --white: #FDFAF7
+  --white: #FFDEF0
 }
 
 body {
@@ -28,7 +28,7 @@ body {
     list-style: none;
 }
 a {
-    color: var(--white);
+    color: var(--#FFDEF0);
     text-decoration: none;
 }
 .right {
