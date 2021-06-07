@@ -5,7 +5,8 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-    background-image: url("Home.gif");
+    background-image: url("/Users/MrZ/Trabajo/SAP pagina web/sebastian-main/Home.gif");
+    width:100%
     background-repeat: no-repeat;
     background-position: 50%;
     background-position: right: 50% bottom: 0px ;
@@ -61,12 +62,21 @@ h1 {
     margin-bottom: 2rem;
     color: #EA0080
 }
+h3 {
+    font-size: 1rem;
+    position: relative;
+    margin-bottom: 2rem;
+    color: #EA0080
+}
 .hero a button {
+
+    background-color: #FFDEF0;
     width: 12rem;
     height: 4rem;
     font-family: 'Sacramento', cursive;
     font-size: 1.3rem;
-    color: var(--#EA0080)
+
+
 }
 .hero {
     margin-left: 2rem;
