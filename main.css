@@ -6,10 +6,11 @@
 body {
     font-family: 'Comfortaa', cursive;
     background-image: url("Home.gif");
-    background-repeat: no-repeat;
-    background-position: 50%;
+   background-repeat: no-repeat ;
+    background-position: center ;
+    background-size: cover ;
+    background-attachment: fixed ;
     height: 100vh;
-}
 
 .navbar {
     display: flex;
