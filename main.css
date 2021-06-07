@@ -10,7 +10,7 @@ body {
     background-position: center ;
     background-size: cover ;
     background-attachment: fixed ;
-    height: 100vh;
+    height: 100%;
 
 .navbar {
     display: flex;
