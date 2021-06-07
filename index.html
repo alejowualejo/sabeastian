@@ -1,104 +1,67 @@
-
-:root {
-  --white: #EA0080
-}
-
-body {
-    font-family: 'Comfortaa', cursive;
-    background-image: url("Home.gif");
-    background-repeat: no-repeat ;
-    background-position: center ;
-    background-size: cover ;
-    background-attachment: fixed ;
-    height: 100vh;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 2rem;
-    margin-bottom: 4rem;
-    text-align: center;
-}
-.left {
-    display: flex;
-}
-.left ul {
-    display: flex;
-    margin: 0;
-}
-.left ul li {
-    margin: 0 .5rem;
-    list-style: none;
-}
-a {
-    color: var(--#FC1A98);
-    text-decoration: none;
-}
-.right {
-    display: flex;
-}
-
-.right ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-
-.right ul li {
-    margin: 0 .5rem;
-}
-.owner-name {
-    text-align: center;
-}
-h2 {
-    color: black;
-    margin: 0;
-    margin-bottom: 2rem;
-}
-h1 {
-    font-size: 3rem;
-    position: relative;
-    margin-bottom: 2rem;
-    color: #EA0080
-}
-h3 {
-    font-size: 1rem;
-    position: relative;
-    margin-bottom: 2rem;
-    color: #EA0080
-}
-.hero a button {
-
-    background-color: #FFDEF0;
-    width: 12rem;
-    height: 4rem;
-    font-family: 'Sacramento', cursive;
-    font-size: 1.3rem;
-
-
-}
-.hero {
-    margin-left: 2rem;
-}
-.footer {
-    position: absolute;
-    bottom: 20px;
-    margin-left: 2rem;
-    display: flex;
-    justify-content: space-between;
-}
-.footer a {
-    margin: 0 2rem;
-}
-
-#instagram {
-    margin-left: 0;
-}
-button {
-    font-family: 'Comfortaa', cursive;
-}
-a:hover {
-    text-decoration: underline;
-    color: burlywood;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebastian Arango Pardo</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <main>
+    <nav class="navbar">
+      <div class="left">
+        <a class="owner-name" href="index.html">Sebastian <br> Arango</a>
+        <ul>
+          <li>
+            <a href="">Estudios</a>
+          </li>
+          <li>
+            <a href="">Proyectos</a>
+          </li>
+          <li>
+            <a href="">Ilustración</a>
+          </li>
+          <li>
+            <a href="">Narrativas</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+            <a href="">Mi historia</a>
+          </li>
+          <li>
+            <a href="">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero">
+      <h2>
+        Sebastián Arango Pardo
+      </h2>
+      <h3>
+        Tengo 32 años y me actualmente curso el Máster en Arquitectura de la Universidad Politécnica de Valencia.
+        Nací en un pequeño pueblo del valle del río Cauca, Colombia, en el seno de una pareja neo-nómada. He vivido en grandes urbes como Cali y Medellín. A los 13 años emigré con mi familia a las pequeñas y luminosas ciudades mediterráneas.
+        “Esta itinerancia, casi genética, me ha motivado a conocer distintas universidades, ciudades, países y sus culturas”
+        Me apasiona descubrir y sentir cómo la arquitectura va cambiando con el clima y la geografía, y observar cómo estos factores a su vez moldean la forma de ser y de vivir de cada comunidad, influyendo incluso en la mirada de cada individuo.
+        Mis intereses principales son la arquitectura y el urbanismo, la sociología, la antropología y el cine, siendo la arquitectura a la que le dedico la mayor parte de mi vida.
+      </h3>
+      <a href="">
+        <button>
+          Mi historia
+        </button>
+      </a>
+    </section>
+    <footer class="footer">
+      <a target="blank" id="instagram" href="https://www.instagram.com/jsebastianap87/?hl=es-la">Instagram</a>
+      <a href="">Facebook</a>
+      <a target="_blank" href="">Behance</a>
+    </footer>
+  </main>
+</body>
+</html>
